@@ -9,15 +9,18 @@
 </head>
 <body>
     <div id="container">
-        <form onsubmit="">
+        <form onsubmit="handleSubmit(event)">
             <div>
                 <label for="">Enter Palidrome</label>
             </div>
             <div>
-                <input type="text">
+                <input type="text" id="word">
             </div>
             <button>Submit</button>
         </form>
+        <div>
+            <h2 id="results"></h2>
+        </div>
     </div>
 </body>
 </html>
