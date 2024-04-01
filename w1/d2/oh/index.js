@@ -8,6 +8,10 @@ const isPali = word => [...word].reverse().join("") == word? true : false
 //     return word.split("").reverse().join("") == word
 // }
 
+isPali("tacocat") // stop here
+
+console.log("Hi")
+
 function handleSubmit(event){
     event.preventDefault()
     console.log(event.srcElement.word.value)
